@@ -2,7 +2,9 @@
 import argparse
 import sys
 import re
-
+# https://www4.isof.se/cgi-bin/srfl/visasvar.py?sok=idag&svar=38363&log_id=991403
+# https://www4.isof.se/cgi-bin/srfl/visasvar.py?sok=%%%%&svar=26051&log_id=733737
+# Och kolla i SAOL.
 
 def get_text(file):
     with open(file, 'r') as text_file:
