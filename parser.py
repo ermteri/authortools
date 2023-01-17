@@ -2,9 +2,14 @@
 import argparse
 import sys
 import re
+# Använd faulty.txt:
 # https://www4.isof.se/cgi-bin/srfl/visasvar.py?sok=idag&svar=38363&log_id=991403
+
+# Denna verkar höra ihop med faulty2.txt
 # https://www4.isof.se/cgi-bin/srfl/visasvar.py?sok=%%%%&svar=26051&log_id=733737
-# Och kolla i SAOL.
+
+# Vid tvekan, kolla i SAOL!
+
 
 def get_text(file):
     with open(file, 'r') as text_file:
