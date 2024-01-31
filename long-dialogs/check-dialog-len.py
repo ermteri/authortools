@@ -21,9 +21,8 @@ def run(args):
     for line in content:
         matches = re.findall('^–', line)
         if matches:
-            if len(line) > 200:
+            if len(line) > 0:
                 print('{}: {}'.format(len(line), line))
-                print('###################################')
 
 
 if __name__ == '__main__':
